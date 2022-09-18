@@ -3,6 +3,8 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+  console.log('HOME')
+  console.log(process.env.NEXT_PUBLIC_ABC)
   return (
     <div className={styles.container}>
       <Head>
